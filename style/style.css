@@ -1,0 +1,97 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+}
+
+#floatleft {
+    margin-left: 10px;
+    float: left;
+    font-size: 1.25em;
+}
+
+#floatright {
+    margin-right: 5px;
+    float: right;
+    font-size: 1em;
+}
+
+.relative {
+    background-image: linear-gradient(150deg, #f14773, #4f5cef);
+    position: absolute;
+    top: 70px;
+    bottom: 80px;
+    width: 100%;
+}
+
+#para{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-left: 35px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: flex-start;
+}
+
+#black{
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#textbox{
+    height: 2.5em;
+    border-radius: 6px;
+    border: white;
+    margin-bottom: 10px;
+}
+
+#buttonlayout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#button{
+    width: 10rem;
+    height: 2.25rem;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: white;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#chef{
+    float:left;
+    margin-left: 35px;
+    display: flex;
+}
+
+footer{
+    display: flex;
+    position:fixed;
+    bottom:0;
+    left:0;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 0.75rem;
+    justify-content:center;
+    align-items:center;
+}
+
